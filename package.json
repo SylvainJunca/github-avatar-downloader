@@ -1,0 +1,27 @@
+{
+  "name": "github-avatar-downloader",
+  "version": "1.0.0",
+  "description": "Downloads a specific GitHub avatar",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SylvainJunca/github-avatar-downloader.git"
+  },
+  "keywords": [
+    "GitHub",
+    "Download",
+    "LHL"
+  ],
+  "author": "Sylvain Junca",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SylvainJunca/github-avatar-downloader/issues"
+  },
+  "homepage": "https://github.com/SylvainJunca/github-avatar-downloader#readme",
+  "dependencies": {
+    "request": "^2.88.0"
+  }
+}
