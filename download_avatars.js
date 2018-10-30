@@ -1,5 +1,5 @@
 var request = require('request');
-var fs = require("fs");
+var fs = require('fs');
 
 const key = require('./secret');
 const argv = process.argv.slice(2);
@@ -17,7 +17,7 @@ function downloadImageByURL(url, filePath) {
 // to get the data related to the owners and repository name specified
 function getRepoContributors(repoOwner, repoName, cb) {
   var options = { 
-    Authorization: "token " + key,
+    Authorization: 'token ' + key,
     url: 'https://api.github.com/repos/' + repoOwner + '/' + repoName + '/contributors',
     headers: {
     'User-Agent': 'request'
